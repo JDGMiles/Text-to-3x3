@@ -1,11 +1,14 @@
 body {background-color:#000000}
 table {border-spacing: 0;}
 tr, td {margin: 0; padding: 0; border: 0; spacing: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
-.gridcell {color:gray; background-color: white; border:1px; border-style:solid; box-sizing:border-box; border-color:gray; font-size:40px; font-family:georgia; text-align:center; vertical-align:middle;}
+
+.gridcell {background-color: black;}
 
 a:link {color:#CF0000; text-decoration: none;}
 a:link:hover {text-decoration:underline}
 a:visited {color:#CF0000;}
+
+.inputbox {width:700px; height:385px; font-size:55px; font-family:georgia; color:white; background-color:black; text-align:center;}
 
 .overlay {
   position: fixed;
@@ -25,14 +28,12 @@ a:visited {color:#CF0000;}
 }
 
 .popup {
-  margin: 20px auto;
-  padding-left: 20px;
-  padding-bottom: : 20px;
-  padding-right: 20px;
-  background: #000000;
+  margin: 70px auto;
+  padding: 10px;
+  background: #181818;
   border:2px solid #AAAAAA;
   border-radius: 20px;
-  width: 530px;
+  width: 400px;
   position: relative;
   transition: all 0s ease-in-out;
 }
