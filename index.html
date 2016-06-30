@@ -46,7 +46,7 @@ for(var i=0; i<tablecolumns*tablerows; i++){cellstate[i]=0;}
 for(var i=0; i<tablerows; i++){
 	tablecontentsmarkup=tablecontentsmarkup+"<tr>";
 	for(var j=0; j<tablecolumns; j++){
-		tablecontentsmarkup=tablecontentsmarkup+"<td class=\"gridcell\" id=\""+(i*tablecolumns+j)+"\" onclick=\"clicked("+(i*tablecolumns+j)+")\" style=\"width:"+cellsize+"px; height:"+cellsize+"px;\"></td>";
+		tablecontentsmarkup=tablecontentsmarkup+"<td class=\"gridcell\" id=\""+(i*tablecolumns+j)+"\" style=\"width:"+cellsize+"px; height:"+cellsize+"px;\"></td>";
 	}
 	tablecontentsmarkup=tablecontentsmarkup+"</tr>";
 }
